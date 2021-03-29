@@ -1,6 +1,6 @@
 import './styles.css';
 import menu from './menu.json';
-import template from './template.hbs';
+import templates from './templates.hbs';
 const body = document.querySelector('body');
 const listRef = document.querySelector('.js-menu');
 const checkBox = document.getElementById('theme-switch-toggle');
