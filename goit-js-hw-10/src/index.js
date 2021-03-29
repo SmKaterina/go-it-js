@@ -1,5 +1,4 @@
 import './styles.css';
-<<<<<<< HEAD
 import menu from './menu.json';
 import template from './template.hbs';
 const body = document.querySelector('body');
@@ -28,7 +27,3 @@ checkBox.addEventListener('change', () => {
     localStorage.removeItem('theme')
   }
 });
-=======
-import './js/initTheme';
-import './js/initMurkup'
->>>>>>> fecb4bb8360013b8e89d9f54de4931cd6bec1774
